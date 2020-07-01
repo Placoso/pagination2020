@@ -1,0 +1,24 @@
+/* paste above the ]]></b:skin>- Pagination CSS */
+#blog-pager, .blog-pager {
+display:block;
+padding:5px 0;
+}
+.showpage a, .pagenumber a, .totalpages, .current {
+position: relative;
+display: inline-block;
+padding: 5px 10px;
+margin: 0 2px;
+background: #ffffff;
+color: #333;
+border: 1px solid #f2f2f2;
+font-size: 12px;
+border-radius: 2px;
+transition: all .3s;
+} 
+
+.showpage a:hover, .pagenumber a:hover, .current {
+background: #333333;
+color: #ffffff;
+text-decoration:none;
+}
+/* End Pagination CSS */
