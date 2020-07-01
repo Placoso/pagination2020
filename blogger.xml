@@ -1,5 +1,5 @@
 <!--paste the code above </body>-->
-<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<b:if cond='data:blog.searchLabel or data:blog.searchQuery'>
 <!-- Start XOmisse Pagination -->
 <script type='text/javascript'> //<![CDATA[ /** shorturl.at/afBMX **/
 var postperpage=3; var numshowpage=4; var prevpage ='Previous'; var nextpage ='Next'; var urlactivepage=location.href; var home_page="/";
